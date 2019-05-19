@@ -1,0 +1,161 @@
+/*********************General**************************/
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", serif;
+}
+
+img {
+  max-width: 100% !important;
+}
+
+.skill-img {
+  font-size: 50px;
+  border-radius: 150px;
+  padding: 100px;
+}
+
+/*********************Navigation**************************/
+#top-nav {
+  background: #ffcc33;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fca62d, #ffcc33);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fca62d, #ffcc33);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+#top-nav li {
+  font-weight: bold;
+}
+
+.social {
+  font-size: 1.5em;
+}
+
+/*********************Banner**************************/
+
+canvas {
+  width: 100vw !important;
+  margin-top: 40px;
+  background-color: #ffcc33;
+  /* fallback for old browsers */
+  background-color: -webkit-linear-gradient(to right, #fca62d, #ffcc33);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background-color: linear-gradient(to right, #fca62d, #ffcc33);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#about,
+#contact,
+#work {
+  padding-top: 60px;
+}
+
+#banner h2 {
+  font-size: 7em;
+  font-weight: 100;
+  letter-spacing: 20px;
+  margin: 0;
+  padding-top: 50px;
+  margin-bottom: 40px;
+  font-family: "Permanent Marker", cursive;
+}
+
+#banner p {
+  font-size: 3em;
+  margin: 0;
+}
+
+.banner__alias {
+  font-size: 3em;
+  font-style: italic;
+  position: relative;
+
+}
+
+.banner__alias_option {
+  overflow: hidden;
+  white-space: nowrap;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+#fisherman {
+  height: 300px;
+  position: absolute;
+  left: 0;
+}
+
+#sun {
+  height: 200px;
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+
+/*********************About ********************/
+#about {
+  /* background-color: #f5f7f8; */
+}
+
+#about h2,
+#work h2,
+#contact h2 {
+  padding: 20px 0 50px 0;
+  margin: 0;
+}
+
+.about__skill_description {
+  font-size: 1em;
+}
+
+/********************Work************************/
+.work__example {
+  margin-left: 10px;
+}
+
+.skill-img {
+  color: #ffcc33;
+}
+
+/********************Contact************************/
+#contact {
+  margin-bottom: 200px;
+}
+
+textarea {
+  resize: none;
+}
+
+/********************Footer************************/
+footer {
+  margin-bottom: 0;
+}
+
+.footer-copyright {
+  margin: 0;
+}
