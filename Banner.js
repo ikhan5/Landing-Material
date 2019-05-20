@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Banner_atlas_", frames: [[1176,316,70,25],[1219,148,48,51],[1162,355,108,26],[1067,355,93,32],[1314,0,52,37],[1657,0,2,1011],[1095,0,122,203],[888,314,105,105],[1085,303,7,7],[1284,148,60,93],[1368,6,5,4],[1095,205,102,109],[1076,303,7,7],[1314,39,59,21],[1284,248,37,107],[1368,12,4,5],[888,421,83,78],[1199,205,83,76],[1067,303,7,7],[1199,283,62,21],[1067,316,107,37],[1368,0,5,4],[995,207,92,94],[888,207,105,105],[1376,124,7,7],[1391,207,67,64],[1376,0,37,122],[1385,124,4,5],[1219,68,74,78],[1450,0,205,205],[888,0,205,205],[1219,0,93,66],[1391,159,40,32],[1391,124,40,33],[0,1100,2040,54],[0,1156,2040,54],[0,1212,2040,54],[0,706,1448,280],[0,988,1304,110],[995,303,70,121],[1295,68,79,67],[1346,137,43,109],[0,0,886,704]]}
+		{name:"Banner_atlas_", frames: [[0,706,1448,280],[1162,316,70,25],[1219,148,48,51],[1067,350,108,26],[1067,316,93,32],[1314,0,52,37],[1657,0,2,1011],[1095,0,122,203],[0,1100,2040,54],[0,1156,2040,54],[0,988,1304,110],[888,314,105,105],[1085,303,7,7],[1284,148,60,93],[1368,0,5,4],[1095,205,102,109],[1376,124,7,7],[1314,39,59,21],[1284,248,37,107],[1385,124,4,5],[888,421,83,78],[1199,205,83,76],[1067,303,7,7],[1199,283,62,21],[1306,988,107,37],[1368,6,5,4],[995,207,92,94],[888,207,105,105],[1076,303,7,7],[1219,0,93,66],[1391,207,67,64],[1376,0,37,122],[1368,12,4,5],[1219,68,74,78],[1450,0,205,205],[888,0,205,205],[1391,159,40,32],[1391,124,40,33],[995,303,70,121],[1295,68,79,67],[1346,137,43,109],[0,0,886,704]]}
 ];
 
 
@@ -11,309 +11,302 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_10 = function() {
+(lib.CachedTexturedBitmap_1 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_11 = function() {
+(lib.CachedTexturedBitmap_10 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_12 = function() {
+(lib.CachedTexturedBitmap_11 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_13 = function() {
+(lib.CachedTexturedBitmap_12 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_14 = function() {
+(lib.CachedTexturedBitmap_13 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_15 = function() {
+(lib.CachedTexturedBitmap_14 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_16 = function() {
+(lib.CachedTexturedBitmap_15 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_20 = function() {
+(lib.CachedTexturedBitmap_16 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_21 = function() {
+(lib.CachedTexturedBitmap_17 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_22 = function() {
+(lib.CachedTexturedBitmap_19 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_24 = function() {
+(lib.CachedTexturedBitmap_2 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_25 = function() {
+(lib.CachedTexturedBitmap_20 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_27 = function() {
+(lib.CachedTexturedBitmap_21 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_28 = function() {
+(lib.CachedTexturedBitmap_22 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_29 = function() {
+(lib.CachedTexturedBitmap_24 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_30 = function() {
+(lib.CachedTexturedBitmap_25 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_31 = function() {
+(lib.CachedTexturedBitmap_27 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_32 = function() {
+(lib.CachedTexturedBitmap_28 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_33 = function() {
+(lib.CachedTexturedBitmap_29 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_34 = function() {
+(lib.CachedTexturedBitmap_3 = function() {
+	this.initialize(img.CachedTexturedBitmap_3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2732,1538);
+
+
+(lib.CachedTexturedBitmap_30 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_35 = function() {
+(lib.CachedTexturedBitmap_31 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_36 = function() {
+(lib.CachedTexturedBitmap_32 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_37 = function() {
+(lib.CachedTexturedBitmap_33 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_38 = function() {
+(lib.CachedTexturedBitmap_34 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_39 = function() {
+(lib.CachedTexturedBitmap_35 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_40 = function() {
+(lib.CachedTexturedBitmap_36 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(25);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_41 = function() {
+(lib.CachedTexturedBitmap_37 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(26);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_42 = function() {
+(lib.CachedTexturedBitmap_38 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(27);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_43 = function() {
+(lib.CachedTexturedBitmap_39 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(28);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_44 = function() {
+(lib.CachedTexturedBitmap_4 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(29);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_45 = function() {
+(lib.CachedTexturedBitmap_40 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(30);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_47 = function() {
+(lib.CachedTexturedBitmap_41 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(31);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_48 = function() {
+(lib.CachedTexturedBitmap_42 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_49 = function() {
+(lib.CachedTexturedBitmap_43 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_50 = function() {
+(lib.CachedTexturedBitmap_44 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_51 = function() {
+(lib.CachedTexturedBitmap_45 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_52 = function() {
+(lib.CachedTexturedBitmap_5 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_53 = function() {
+(lib.CachedTexturedBitmap_6 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_54 = function() {
+(lib.CachedTexturedBitmap_7 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_55 = function() {
-	this.initialize(img.CachedTexturedBitmap_55);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2732,1538);
-
-
-(lib.CachedTexturedBitmap_7 = function() {
+(lib.CachedTexturedBitmap_8 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_8 = function() {
+(lib.CachedTexturedBitmap_9 = function() {
 	this.initialize(ss["Banner_atlas_"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedTexturedBitmap_9 = function() {
-	this.initialize(ss["Banner_atlas_"]);
-	this.gotoAndStop(41);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.Clouds = function() {
 	this.initialize(ss["Banner_atlas_"]);
-	this.gotoAndStop(42);
+	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -452,15 +445,15 @@ p.nominalBounds = new cjs.Rectangle(-124.2,-124.2,248.7,248.60000000000002);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.CachedTexturedBitmap_52();
+	this.instance = new lib.CachedTexturedBitmap_19();
 	this.instance.parent = this;
 	this.instance.setTransform(501.85,-13.45,0.5,0.5);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_51();
+	this.instance_1 = new lib.CachedTexturedBitmap_19();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(-1522.1,-13.45,0.5,0.5);
 
-	this.instance_2 = new lib.CachedTexturedBitmap_50();
+	this.instance_2 = new lib.CachedTexturedBitmap_17();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(-517.4,-13.45,0.5,0.5);
 
@@ -541,15 +534,15 @@ p.nominalBounds = new cjs.Rectangle(-1522.1,-13.4,3044,27);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_1
-	this.instance = new lib.CachedTexturedBitmap_49();
+	this.instance = new lib.CachedTexturedBitmap_6();
 	this.instance.parent = this;
 	this.instance.setTransform(0.1,14.25,0.4918,0.4918);
 
-	this.instance_1 = new lib.CachedTexturedBitmap_48();
+	this.instance_1 = new lib.CachedTexturedBitmap_5();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(0,0,0.4918,0.4918);
 
-	this.instance_2 = new lib.CachedTexturedBitmap_47();
+	this.instance_2 = new lib.CachedTexturedBitmap_4();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(16.85,0,0.4918,0.4918);
 
@@ -746,11 +739,11 @@ p.nominalBounds = new cjs.Rectangle(-1422,-89,2429.8,178);
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(241));
 
 	// Imzan
-	this.instance_6 = new lib.CachedTexturedBitmap_54();
+	this.instance_6 = new lib.CachedTexturedBitmap_2();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(342.4,394.55,0.5,0.5);
 
-	this.instance_7 = new lib.CachedTexturedBitmap_53();
+	this.instance_7 = new lib.CachedTexturedBitmap_1();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(311.25,272.05,0.5,0.5);
 
@@ -761,17 +754,17 @@ p.nominalBounds = new cjs.Rectangle(-1422,-89,2429.8,178);
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(-155.55,547.25);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({x:1330.6,y:523},239).to({x:1521.55},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).to({x:1521.45},240).wait(1));
 
 	// Background
-	this.instance_9 = new lib.CachedTexturedBitmap_55();
+	this.instance_9 = new lib.CachedTexturedBitmap_3();
 	this.instance_9.parent = this;
 	this.instance_9.setTransform(-0.05,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(241));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-1587.5,379.5,4630.9,389.5);
+p.nominalBounds = new cjs.Rectangle(-1587.5,379.5,4630.8,389.5);
 // library properties:
 lib.properties = {
 	id: '34C1448709015146A8CA13BA64836D72',
@@ -781,7 +774,7 @@ lib.properties = {
 	color: "#535353",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_55.png", id:"CachedTexturedBitmap_55"},
+		{src:"images/CachedTexturedBitmap_3.png", id:"CachedTexturedBitmap_3"},
 		{src:"images/Banner_atlas_.png", id:"Banner_atlas_"}
 	],
 	preloads: []
