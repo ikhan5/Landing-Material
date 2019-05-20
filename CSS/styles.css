@@ -55,10 +55,14 @@ img {
   font-size: 1.5em;
 }
 
+#logo {
+  padding: 5px;
+}
+
 /*********************Banner**************************/
 canvas {
   width: 100vw !important;
-  margin-top: 40px;
+  margin-top: 50px;
   background-color: #ffcc33;
   /* fallback for old browsers */
   background-color: -webkit-linear-gradient(to right, #fca62d, #ffcc33);
@@ -112,6 +116,10 @@ canvas {
   margin-top: 0;
 }
 
+.work__example_boy {
+  min-height: 100%;
+}
+
 .skill-img {
   color: #ffcc33;
 }
@@ -143,4 +151,40 @@ footer {
 
 .footer-copyright {
   margin: 0;
+}
+
+@media screen and (max-width: 1050px) {
+  #bio h2 {
+    padding-bottom: 0;
+  }
+
+  .bio-text {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #bio {
+    padding-top: 40px;
+  }
+
+  #skills,
+  #work,
+  #contact {
+    padding-top: 10px;
+  }
+
+  #top-nav {
+    position: initial;
+  }
+
+  canvas {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__skill {
+    margin-top: 20px;
+  }
 }

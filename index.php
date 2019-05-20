@@ -82,10 +82,10 @@
         <li><a href="#work">Work</a></li>
         <li><a href="#contact">Contact</a></li>
         <li>
-          <a href="https://www.linkedin.com/in/imzan-khan-0a7249131"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.linkedin.com/in/imzan-khan-0a7249131" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         </li>
         <li>
-          <a href="https://github.com/ikhan5?tab=repositories"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/ikhan5?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
         </li>
       </ul>
 
@@ -95,10 +95,10 @@
         <li><a href="#work">Work</a></li>
         <li><a href="#contact">Contact</a></li>
         <li>
-          <a href="https://www.linkedin.com/in/imzan-khan-0a7249131"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.linkedin.com/in/imzan-khan-0a7249131" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         </li>
         <li>
-          <a href="https://github.com/ikhan5?tab=repositories"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/ikhan5?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
         </li>
       </ul>
     </nav>
@@ -117,7 +117,7 @@
             <p>
               Hello, my name is Imzan Khan and I am a Full-Stack Web
               Developer. I graduated from Lakehead University with a
-              Bachelor's Degree in Electrical Engineering, and am currently
+              Bachelor's Degree in Electrical Engineering, and I'm currently
               studying towards a Graduate Certificate at Humber in Web
               Development.
             </p>
