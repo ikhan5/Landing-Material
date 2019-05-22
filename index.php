@@ -113,7 +113,7 @@
     </div>
   </header>
   <section id="bio" class="container">
-    <h2 class="center">Who am I?</h2>
+    <h2 class="center section_header">Who am I?</h2>
     <div class="row">
       <div class="col s12 m8">
         <div class="bio-text">
@@ -143,12 +143,11 @@
     </div>
   </section>
   <section id="skills" class="container">
-    <h2 class="center">My Skills</h2>
+    <h2 class="center section_header">My Skills</h2>
     <div class="about__skills row">
       <div class="about__skill col s12 m4 center">
         <h3 class="about__skill_header">Front End Development</h3>
         <i class="skill-img fas fa-palette large material-icons"></i>
-
         <ul class="about__skill_description">
           <li>HTML5 & CSS3</li>
           <li>JavaScript & jQuery</li>
@@ -180,93 +179,123 @@
       </div>
     </div>
   </section>
-  <section id="work" class="container">
-    <h2 class="center">Projects</h2>
+  <section id="work" class="container-fluid">
+    <h2 class="center section_header">Projects</h2>
     <div class="work__projects row">
-      <div class="work__example col m6 s12">
-        <div class="card large sticky-action hoverable">
-          <div class="card-image waves-effect waves-block waves-light center">
-            <img class="activator" src="images/Gifs/Sorting/sorting.gif" alt="A Gif of a sorting game made by Imzan Khan" title="Click to see more about this project!" />
+      <div class="work__example col m6 s12 center">
+        <h2 class="work__title">Sorting Game</h2>
+        <div class="call-to-action">
+          <div class="work__image">
+            <img src="images/Gifs/Sorting/sorting.gif" alt="A Gif of a sorting game made by Imzan Khan" title="Click to see more about this project!" />
           </div>
-          <div class="card-content activator">
-            <h3 class="work__example_name card-title center activator">Sorting Game<i class="material-icons right">more_vert</i></h3>
-            <div class="work__example_body ">
-              <h3 class="languages">Used in the project:</h3>
-              <p>HTML5, CSS3, JavaScript, AJAX, jQuery and jQuery UI, Bootstrap, PHP and MySQL</p>
-            </div>
-          </div>
-          <div class="center card-action">
+          <div class="center links">
             <a href="http://sorting.imzankhan.ca/" target="_blank" class="btn deep-orange accent-4">View Project</a>
             <a href="https://github.com/ikhan5/SortingGame" target="_blank" class="btn orange darken-4">View Code</a>
           </div>
-          <div class="card-reveal">
-            <h3 class="work__example_name card-title center">Sorting Game<i class="material-icons right">close</i></h3>
-            <p class="work_example_description card-text">
-              The Sorting Game uses the
-              <a href="https://anapioficeandfire.com/" target="_blank">Game of Thrones API</a>
-              to pull all the characters from the show. The characters are put
-              in random order and must be sorted in alphabetical order.
-              <p><b>Note: Don't worry there are NO SPOILERS </b></p>
-            </p>
-          </div>
         </div>
       </div>
-      <div class="work__example col m6 s12">
-        <div class="card large sticky-action hoverable">
-          <div class="card-image waves-effect waves-block  waves-light center">
-            <img class="activator" src="images/Gifs/Sorting/blackjack.gif" alt="A Gif of a black jack game made by Imzan Khan" />
-          </div>
-          <div class="card-content">
-            <h3 class="work__example_name card-title center activator">Black Jack<i class="material-icons right">more_vert</i></h3>
-            <div class="work__example_body">
-              <h3 class="languages">Used in the project:</h3>
-              <p>HTML5, CSS3, and JavaScript</p>
-            </div>
-          </div>
-          <div class="card-reveal">
-            <h3 class="work__example_name card-title center">Black Jack<i class="material-icons right">close</i></h3>
+      <div class="work__desc col m6 s12">
+        <div class="work__overview">
+          <p class="work_example_description">
+            The Sorting Game uses <b>AJAX</b> and the
+            <a href="https://anapioficeandfire.com/" target="_blank">Game of Thrones API</a>
+            to pull all the characters from the show. The characters are put
+            in random order and must be sorted in alphabetical order. The characters are able to be moved by dragging the names, which is enabled by <b>jQuery UI's</b> sortable functionality.
+          </p>
+          <p><b>PHP and MySQL</b> are used to develop the Player Management System, which includes
+            registration, account activation, and logging in/out. Player's scored and recorded and listed individually, as well as globally amongst the other player's high scores.</p>
+          <p> <b>Note: Don't worry there are NO SPOILERS </b></p>
+        </div>
+        <div class="work__example_languages">
+          <h3 class="languages">Used in the project:</h3>
+          <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript & jQuery</li>
+            <li>AJAX</li>
+            <li>jQuery UI</li>
+            <li>Bootstrap</li>
+            <li>PHP & MySQL</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <div class="work__projects row">
+      <div class="work__desc col m6 s12">
+        <div class="work__overview">
+          <p class="work_example_description">
             <p class="work_example_description card-text">
-              Black Jack is where you compete with the dealer to
-              try and get as close to 21 without going over.
+              The Sorting Game uses <b>AJAX</b> and the
+              <a href="https://anapioficeandfire.com/" target="_blank">Game of Thrones API</a>
+              to pull all the characters from the show. The characters are put
+              in random order and must be sorted in alphabetical order. The characters are able to be moved by dragging the names, which is enabled by <b>jQuery UI's</b> sortable functionality.
             </p>
+            <p><b>PHP and MySQL</b> are used to develop the Player Management System, which includes
+              registration, account activation, and logging in/out. Player's scored and recorded and listed individually, as well as globally amongst the other player's high scores.</p>
+            <p> <b>Note: Don't worry there are NO SPOILERS </b></p>
+          </p>
+        </div>
+        <div class="work__example_languages">
+          <h3 class="languages">Used in the project:</h3>
+          <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </div>
+      <div class="work__example col m6 s12 center">
+        <h2 class="work__title">Black Jack</h2>
+        <div class="call-to-action">
+          <div class="work__image">
+            <img src="images/Gifs/Sorting/blackjack.gif" alt="A Gif of a sorting game made by Imzan Khan" title="Click to see more about this project!" />
           </div>
-          <div class="center card-action">
+          <div class="center links">
             <a href="http://blackjack.imzankhan.ca/" target="_blank" class="btn deep-orange accent-4">View Project</a>
             <a href="https://github.com/ikhan5/BlackJack" target="_blank" class="btn orange darken-4">View Code</a>
           </div>
         </div>
       </div>
-      <div class="work__example col m6 s12">
-        <div class="card large sticky-action hoverable">
-          <div class="card-image waves-effect waves-block  waves-light center">
-            <img class="activator" src="images/Gifs/Sorting/playlists.gif" alt="A Gif of a playlist making application made by Imzan Khan" />
+    </div>
+    <div class="divider"></div>
+    <div class="work__projects row">
+      <div class="work__example col m6 s12 center">
+        <h2 class="work__title">Create A Playlist</h2>
+        <div class="call-to-action">
+          <div class="work__image">
+            <img src="images/Gifs/Sorting/playlists.gif" alt="A Gif of a Playlist application made by Imzan Khan" />
           </div>
-          <div class="card-content">
-            <h3 class="work__example_name card-title center activator">Create a Playlist<i class="material-icons right">more_vert</i></h3>
-            <div class="work__example_body activator">
-              <h3 class="languages">Used in the project:</h3>
-              <p class="activator">HTML5, CSS3, JavaScript, AJAX, jQuery, Bootstrap, PHP and MySQL</p>
-            </div>
-          </div>
-          <div class="card-reveal">
-            <h3 class="work__example_name card-title center">Create a Playlist<i class="material-icons right">close</i></h3>
-            <p class="work_example_description card-text ">
-              As apart of a team we developed a Party Planning website
-              known as 'Get Together'. The Playlist feature allows users to
-              add hand selected songs to a playlist and play them in the YouTube
-              embed container.
-            </p>
-          </div>
-          <div class="center card-action">
+          <div class="center links">
             <a href="http://playlists.imzankhan.ca/playlists/index.php?eid=1" target="_blank" class="btn deep-orange accent-4">View Project</a>
             <a href="https://github.com/ikhan5/get-together/tree/master/playlists" target="_blank" class="btn orange darken-4">View Code</a>
           </div>
         </div>
       </div>
+      <div class="work__desc col m6 s12">
+        <div class="work__overview">
+          <p class="work_example_description">
+            As apart of a team we developed a Party Planning website
+            known as 'Get Together'. The Playlist feature allows users to
+            add hand selected songs to a playlist and play them in the YouTube
+            embed container.
+          </p>
+        </div>
+        <div class="work__example_languages">
+          <h3 class="languages">Used in the project:</h3>
+          <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript & jQuery</li>
+            <li>AJAX</li>
+            <li>Bootstrap</li>
+            <li>PHP & MySQL</li>
+          </ul>
+        </div>
+      </div>
     </div>
+    </div>
+    <div class="divider"></div>
   </section>
   <section id="contact" class="container">
-    <h2 class="center">Contact</h2>
+    <h2 class="center section_header">Contact</h2>
     <div id="email_conf"></div>
     <form id="contact__form" method="POST" class="col s12">
       <p class="right red-text">* Required Fields</p>
@@ -306,7 +335,7 @@
           </li>
         </ul>
       </div>
-      <p class="footer-copyright white-text clearfix">
+      <p class="footer-copyright orange white-text clearfix">
         &copy; Copyright Imzan Khan, 2019.
       </p>
     </div>

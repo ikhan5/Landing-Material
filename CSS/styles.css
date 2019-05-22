@@ -25,10 +25,7 @@ h3 {
   font-family: "Roboto", serif;
 }
 
-#skills h2,
-#work h2,
-#contact h2,
-#bio h2 {
+.section_header {
   font-family: "Permanent Marker", cursive;
   padding: 30px 0 30px 0;
   margin: 0;
@@ -143,9 +140,28 @@ canvas {
 }
 
 /********************Work************************/
+#work {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.work__projects {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#work .section_header {
+  margin-bottom: 10px;
+}
+
+.work__title {
+  font-size: 2.5em;
+  margin: 0;
+  font-weight: bold;
+}
+
 .work__example {
   margin-left: 10px;
-  height: 600px;
 }
 
 .work__example_name {
@@ -156,24 +172,75 @@ canvas {
   min-height: 100%;
 }
 
+.work__overview p {
+  margin-top: 0;
+}
+
+.call-to-action {
+  margin-top: 25px;
+}
+
+.work__desc:nth-child(odd) {
+  padding-left: 50px;
+}
+
+.overview {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.languages {
+  font-size: 1.5em;
+}
+
+.work__example_languages li {
+  margin-left: 25px;
+  list-style-type: disc !important;
+}
+
 .skill-img {
   color: #ffcc33;
 }
 
-.card-image img {
-  max-width: 90% !important;
-  margin-left: 25px;
+.work__image {
+  margin: 0 auto;
+  width: 72%;
 }
 
-.languages {
-  font-size: 1.2em;
-  margin-bottom: 0;
-  margin-top: 0;
+.work__image img {
+  width: 100% !important;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.links a {
+  margin-right: 8px;
+  margin-left: 8px;
+  width: 35%;
+}
+
+.divider {
+  background-color: black !important;
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /********************Contact************************/
 #contact {
   margin-bottom: 200px;
+}
+
+#contact__form {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#contact__submit {
+  font-size: 1em;
 }
 
 textarea {
@@ -182,6 +249,7 @@ textarea {
 
 .input-field label {
   color: #000;
+  font-size: 1.2em !important;
 }
 
 /********************Footer************************/
