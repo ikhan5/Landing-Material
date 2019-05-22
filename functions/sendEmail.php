@@ -31,7 +31,7 @@ $mail->isSMTP();
 $mail->Port = '587';
 $mail->SMTPAuth = true;
 $mail->Username = "landing@imzankhan.ca";
-$mail->Password = "";
+$mail->Password = "b?PMVI%id[{U";
 $mail->SMTPSecure = 'tls';
 $mail->setFrom('landing@imzankhan.ca', $username);
 $mail->addAddress("ikhan5@lakeheadu.ca", "Imzan Khan");

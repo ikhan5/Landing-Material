@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('.sidenav').sidenav();
+
     $("#contact__form").submit(function (event) {
         event.preventDefault();
         let name = $("#contact__name").val();
