@@ -305,11 +305,49 @@ footer {
   }
 
   .work_example_description {
+    margin-top: 50px !important;
     font-size: 1em;
+  }
+
+  .work__projects:nth-child(even) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .work__desc {
+    order: 2;
   }
 
   .bio-text {
     margin: 0;
     font-size: 1em;
+  }
+
+  .work__image {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  #contact__form {
+    width: 90%;
+  }
+
+  .input-field label {
+    color: #000;
+    font-size: 1em !important;
+  }
+
+  .links a {
+    margin-top: 15px;
+    width: 90%;
+  }
+
+  .work__desc:nth-child(odd) {
+    padding-left: 10.5px;
+    padding-right: 10.5px;
+  }
+
+  .footer-nav {
+    font-size: 1.3em;
   }
 }

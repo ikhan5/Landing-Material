@@ -126,13 +126,12 @@
               Development.
             </p>
             <p>
-              I strive to make any idea into a reality through personalized
-              and interactive websites. I believe that every website should
+              My speciality would be working with JavaScript and PHP/MySQL as it allows me to develop
+              personalized and interactive websites. I believe that every website should
               have something unique to make it stand out among the rest.
             </p>
             <p>
-              I enjoy Wrestling, Sports, Video Games, and making my own
-              Browser Games.
+              On a personal note, I enjoy Wrestling, Sports, Video Games, and making my own Browser Games.
             </p>
           </div>
         </div>
@@ -175,6 +174,7 @@
           <li>Adobe XD</li>
           <li>Adobe Animate</li>
           <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
         </ul>
       </div>
     </div>
@@ -186,7 +186,7 @@
         <h2 class="work__title">Sorting Game</h2>
         <div class="call-to-action">
           <div class="work__image">
-            <img src="images/Gifs/Sorting/sorting.gif" alt="A Gif of a sorting game made by Imzan Khan" title="Click to see more about this project!" />
+            <img src="images/Gifs/sorting.gif" alt="A Gif of a sorting game made by Imzan Khan" title="Click to see more about this project!" />
           </div>
           <div class="center links">
             <a href="http://sorting.imzankhan.ca/" target="_blank" class="btn deep-orange accent-4">View Project</a>
@@ -225,14 +225,16 @@
         <div class="work__overview">
           <p class="work_example_description">
             <p class="work_example_description card-text">
-              The Sorting Game uses <b>AJAX</b> and the
-              <a href="https://anapioficeandfire.com/" target="_blank">Game of Thrones API</a>
-              to pull all the characters from the show. The characters are put
-              in random order and must be sorted in alphabetical order. The characters are able to be moved by dragging the names, which is enabled by <b>jQuery UI's</b> sortable functionality.
+              The Blackjack game is a project I used to help supplement my learning during the first semester, it is coded using only vanilla <b>JavaScript.</b>
+              This includes the dealer AI, basic game play, and the adaptive scoring (arguably the hardest part).
             </p>
-            <p><b>PHP and MySQL</b> are used to develop the Player Management System, which includes
-              registration, account activation, and logging in/out. Player's scored and recorded and listed individually, as well as globally amongst the other player's high scores.</p>
-            <p> <b>Note: Don't worry there are NO SPOILERS </b></p>
+            <p>The game revolves around <b>Object Oriented JavaScript</b>, this includes the Cards, the Deck, and the Players (you and the dealer).
+              The cards are objects that contain values such as: card image, card value, alternate values (where required), and name (i.e. Ace of Spades). The use of Card Objects allows for flexible and organized coding. </p>
+          </p>
+          <p>
+            The issue with the hand totals was due to the fact that in BlackJack cards can have
+            more than one value depending on the total score in the player's hand; thus, multiple hand totals were calculated in the Player object and compared to see which was larger,
+            but was less than or equal to 21.
           </p>
         </div>
         <div class="work__example_languages">
@@ -247,7 +249,7 @@
         <h2 class="work__title">Black Jack</h2>
         <div class="call-to-action">
           <div class="work__image">
-            <img src="images/Gifs/Sorting/blackjack.gif" alt="A Gif of a sorting game made by Imzan Khan" title="Click to see more about this project!" />
+            <img src="images/Gifs/blackjack.gif" alt="A Gif of a sorting game made by Imzan Khan" title="Click to see more about this project!" />
           </div>
           <div class="center links">
             <a href="http://blackjack.imzankhan.ca/" target="_blank" class="btn deep-orange accent-4">View Project</a>
@@ -262,7 +264,7 @@
         <h2 class="work__title">Create A Playlist</h2>
         <div class="call-to-action">
           <div class="work__image">
-            <img src="images/Gifs/Sorting/playlists.gif" alt="A Gif of a Playlist application made by Imzan Khan" />
+            <img src="images/Gifs/playlists.gif" alt="A Gif of a Playlist application made by Imzan Khan" />
           </div>
           <div class="center links">
             <a href="http://playlists.imzankhan.ca/playlists/index.php?eid=1" target="_blank" class="btn deep-orange accent-4">View Project</a>
@@ -274,9 +276,21 @@
         <div class="work__overview">
           <p class="work_example_description">
             As apart of a team we developed a Party Planning website
-            known as 'Get Together'. The Playlist feature allows users to
+            known as <a href="http://get-together.gq/">'Get Together'</a>. The Playlist feature allows users to
             add hand selected songs to a playlist and play them in the YouTube
             embed container.
+          </p>
+          <p>
+            This feature includes a lot of <b>PHP</b> and <b>JavaScript/jQuery</b>, as there is constant
+            interaction between actions on the interface that result in changes in the Database.
+            Changes such as clicking a Playlist pulls all the songs that have been added to the
+            Playlist. <b>Object Oriented PHP</b>, along with secure database practices, such as, binding, preparing, and executing
+            <b>MySQL</b> queries using Database Methods.
+          </p>
+          <p>
+            The main problem to overcome was collaborating for the first time with other developers to create a much larger
+            website than I am accustomed to. This was solved using standard Git and GitHub practices, and communicating with
+            my teammates as often as possible.
           </p>
         </div>
         <div class="work__example_languages">
@@ -326,7 +340,7 @@
       </div>
       <div class="col l4 s12 right">
         <h5 class="white-text">Links</h5>
-        <ul>
+        <ul class="footer-nav">
           <li><a class="grey-text text-lighten-5" href="#bio">About</a></li>
           <li><a class="grey-text text-lighten-5" href="#skills">Skills</a></li>
           <li><a class="grey-text text-lighten-5" href="#work">Work</a></li>
