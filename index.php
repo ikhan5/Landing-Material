@@ -268,7 +268,7 @@
           </div>
           <div class="center links">
             <a href="http://playlists.imzankhan.ca/playlists/index.php?eid=1" target="_blank" class="btn deep-orange accent-4">View Project</a>
-            <a href="https://github.com/ikhan5/get-together/tree/master/playlists" target="_blank" class="btn orange darken-4">View Code</a>
+            <a href="https://github.com/ikhan5/Playlists.git" target="_blank" class="btn orange darken-4">View Code</a>
           </div>
         </div>
       </div>
@@ -276,7 +276,7 @@
         <div class="work__overview">
           <p class="work_example_description">
             As apart of a team we developed a Party Planning website
-            known as <a href="http://get-together.gq/">'Get Together'</a>. The Playlist feature allows users to
+            known as <a href="http://get-together.gq/">'Get Together'</a> (full site, click View Project for Playlist feature). The Playlist feature allows users to
             add hand selected songs to a playlist and play them in the YouTube
             embed container.
           </p>
