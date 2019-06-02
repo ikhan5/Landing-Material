@@ -111,6 +111,34 @@ canvas {
   font-size: 2em;
   color: #535353;
   margin: 0;
+  margin-bottom: 50px;
+}
+
+#to-content {
+  position: relative;
+  font-size: 3em;
+  color: white;
+  font-weight: bold;
+  animation-name: move;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+}
+
+@keyframes move {
+  from {
+    bottom: 20px;
+  }
+
+  to {
+    bottom: 10px;
+
+  }
+}
+
+.proceed {
+  animation: move;
 }
 
 /*********************Bio ********************/
@@ -280,6 +308,10 @@ footer {
     padding-top: 40px;
   }
 
+  #banner {
+    top: 60%;
+  }
+
   #skills,
   #work,
   #contact {
@@ -349,5 +381,13 @@ footer {
 
   .footer-nav {
     font-size: 1.3em;
+  }
+
+  #alias {
+    margin-bottom: 20px;
+  }
+
+  #to-content {
+    font-size: 1em;
   }
 }

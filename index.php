@@ -7,64 +7,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
   <link rel="stylesheet" href="CSS/styles.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="Script/scripts.js"></script>
-  <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-  <script src="Banner.js"></script>
-  <script>
-    var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
-
-    function init() {
-      canvas = document.getElementById("canvas");
-      anim_container = document.getElementById("animation_container");
-      dom_overlay_container = document.getElementById("dom_overlay_container");
-      var comp = AdobeAn.getComposition("34C1448709015146A8CA13BA64836D72");
-      var lib = comp.getLibrary();
-      var loader = new createjs.LoadQueue(false);
-      loader.addEventListener("fileload", function(evt) {
-        handleFileLoad(evt, comp)
-      });
-      loader.addEventListener("complete", function(evt) {
-        handleComplete(evt, comp)
-      });
-      var lib = comp.getLibrary();
-      loader.loadManifest(lib.properties.manifest);
-    }
-
-    function handleFileLoad(evt, comp) {
-      var images = comp.getImages();
-      if (evt && (evt.item.type == "image")) {
-        images[evt.item.id] = evt.result;
-      }
-    }
-
-    function handleComplete(evt, comp) {
-      //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
-      var lib = comp.getLibrary();
-      var ss = comp.getSpriteSheet();
-      var queue = evt.target;
-      var ssMetadata = lib.ssMetadata;
-      for (i = 0; i < ssMetadata.length; i++) {
-        ss[ssMetadata[i].name] = new createjs.SpriteSheet({
-          "images": [queue.getResult(ssMetadata[i].name)],
-          "frames": ssMetadata[i].frames
-        })
-      }
-      exportRoot = new lib.Banner();
-      stage = new lib.Stage(canvas);
-      //Registers the "tick" event listener.
-      fnStartAnimation = function() {
-        stage.addChild(exportRoot);
-        createjs.Ticker.setFPS(lib.properties.fps);
-        createjs.Ticker.addEventListener("tick", stage);
-      }
-      //Code to support hidpi screens and responsive scaling.
-      AdobeAn.makeResponsive(true, 'both', true, 1, [canvas, anim_container, dom_overlay_container]);
-      AdobeAn.compositionLoaded(lib.properties.id);
-      fnStartAnimation();
-    }
-  </script>
 </head>
 
 <body onload="init();">
@@ -107,6 +49,7 @@
       <div id="banner">
         <p id="name">Imzan Khan</p>
         <p id="alias">Full Stack Web Developer</p>
+        <div class="proceed"><a id="to-content" href="#bio"><i class="fas fa-angle-double-down"></i></a></div>
       </div>
       <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden;  height:768px; position: absolute; left: 0px; top: 0px; display: block;">
       </div>
@@ -354,6 +297,64 @@
       </p>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="Script/scripts.js"></script>
+  <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+  <script src="Banner.js"></script>
+  <script>
+    var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+
+    function init() {
+      canvas = document.getElementById("canvas");
+      anim_container = document.getElementById("animation_container");
+      dom_overlay_container = document.getElementById("dom_overlay_container");
+      var comp = AdobeAn.getComposition("34C1448709015146A8CA13BA64836D72");
+      var lib = comp.getLibrary();
+      var loader = new createjs.LoadQueue(false);
+      loader.addEventListener("fileload", function(evt) {
+        handleFileLoad(evt, comp)
+      });
+      loader.addEventListener("complete", function(evt) {
+        handleComplete(evt, comp)
+      });
+      var lib = comp.getLibrary();
+      loader.loadManifest(lib.properties.manifest);
+    }
+
+    function handleFileLoad(evt, comp) {
+      var images = comp.getImages();
+      if (evt && (evt.item.type == "image")) {
+        images[evt.item.id] = evt.result;
+      }
+    }
+
+    function handleComplete(evt, comp) {
+      //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+      var lib = comp.getLibrary();
+      var ss = comp.getSpriteSheet();
+      var queue = evt.target;
+      var ssMetadata = lib.ssMetadata;
+      for (i = 0; i < ssMetadata.length; i++) {
+        ss[ssMetadata[i].name] = new createjs.SpriteSheet({
+          "images": [queue.getResult(ssMetadata[i].name)],
+          "frames": ssMetadata[i].frames
+        })
+      }
+      exportRoot = new lib.Banner();
+      stage = new lib.Stage(canvas);
+      //Registers the "tick" event listener.
+      fnStartAnimation = function() {
+        stage.addChild(exportRoot);
+        createjs.Ticker.setFPS(lib.properties.fps);
+        createjs.Ticker.addEventListener("tick", stage);
+      }
+      //Code to support hidpi screens and responsive scaling.
+      AdobeAn.makeResponsive(true, 'both', true, 1, [canvas, anim_container, dom_overlay_container]);
+      AdobeAn.compositionLoaded(lib.properties.id);
+      fnStartAnimation();
+    }
+  </script>
 </body>
 
 </html>
