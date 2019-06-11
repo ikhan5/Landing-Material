@@ -69,7 +69,7 @@
               Development.
             </p>
             <p>
-              My speciality would be working with JavaScript and PHP/MySQL as it allows me to develop
+              My specialty would be working with JavaScript and PHP/MySQL as it allows me to develop
               personalized and interactive websites. I believe that every website should
               have something unique to make it stand out among the rest.
             </p>
@@ -128,7 +128,7 @@
     <h2 class="center section_header">Projects</h2>
     <div class="work__projects row">
       <div class="work__example col m6 s12 center">
-        <h2 class="work__title">Job Applciation Manager</h2>
+        <h2 class="work__title">Job Application Manager</h2>
         <div class="call-to-action">
           <div class="work__image">
             <img src="images/Gifs/app-manager.gif" alt="A Gif of a job application manager made by Imzan Khan" title="Click to see more about this project!" />
