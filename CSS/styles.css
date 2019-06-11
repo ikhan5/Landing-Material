@@ -133,7 +133,6 @@ canvas {
 
   to {
     bottom: 10px;
-
   }
 }
 
@@ -174,6 +173,10 @@ canvas {
 }
 
 .work__projects {
+  display: flex;
+}
+
+.work__projects {
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -190,6 +193,14 @@ canvas {
 
 .work__example {
   margin-left: 10px;
+}
+
+.work__projects:nth-of-type(even) > .work__desc {
+  order: 1;
+}
+
+.work__projects:nth-of-type(even) > .work__example {
+  order: 2;
 }
 
 .work__example_name {
@@ -346,8 +357,12 @@ footer {
     flex-direction: column;
   }
 
-  .work__desc {
+  .work__projects:nth-of-type(even) > .work__desc {
     order: 2;
+  }
+
+  .work__projects:nth-of-type(even) > .work__example {
+    order: 1;
   }
 
   .bio-text {

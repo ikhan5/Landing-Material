@@ -104,6 +104,8 @@
         <ul class="about__skill_description">
           <li>PHP</li>
           <li>MySQL</li>
+          <li>Laravel</li>
+          <li>C and C#</li>
           <li>Oracle</li>
         </ul>
       </div>
@@ -124,6 +126,53 @@
   </section>
   <section id="work" class="container-fluid">
     <h2 class="center section_header">Projects</h2>
+    <div class="work__projects row">
+      <div class="work__example col m6 s12 center">
+        <h2 class="work__title">Job Applciation Manager</h2>
+        <div class="call-to-action">
+          <div class="work__image">
+            <img src="images/Gifs/app-manager.gif" alt="A Gif of a job application manager made by Imzan Khan" title="Click to see more about this project!" />
+          </div>
+          <div class="center links">
+            <a href="http://joballation.gq/" target="_blank" class="btn deep-orange accent-4">View Project</a>
+            <a href="https://github.com/BibekStha/Joballation-FF" target="_blank" class="btn orange darken-4">View Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="work__desc col m6 s12">
+        <div class="work_example_description">
+          <p>
+            Branded as 'Joballation' the Job Application Manager allows for users to
+            enter any relevant information regarding a certain job application into the system.
+            Joballation is meant to provide users who are looking for a new job and want a place to
+            manage all the postings in an organized manner.
+          </p>
+          <p>
+            My contributions to the project involved developing the user interfaces in the <b>Laravel</b> framework,
+            which includes: <b>Bootstrap</b> and <b>SASS</b>, which were used to develop the prototypes made by the
+            UI/UX designer in <b>Adobe XD</b>. I used <b>Laravel's Eloquent ORM</b> to pull the desired filters into the
+            applications index, as well as the applications that belonged to that user.
+          </p>
+          <p>In addition, I developed the job application comparison features using <b>Laravel's Routing</b> to send the desired
+            job postings for comparison. To compare the postings, I primarily used <b>jQuery</b> for the compare functionality.
+          </p>
+        </div>
+        <div class="work__example_languages">
+          <h3 class="languages">Used in the project:</h3>
+          <ul>
+            <li>Laravel</li>
+            <li>SASS</li>
+            <li>Eloqeunt ORM</li>
+            <li>JavaScript & jQuery</li>
+            <li>AJAX</li>
+            <li>Bootstrap</li>
+            <li>PHP & MySQL</li>
+            <li>HTML5 & CSS3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="divider"></p>
     <div class="work__projects row">
       <div class="work__example col m6 s12 center">
         <h2 class="work__title">Sorting Game</h2>
@@ -162,18 +211,29 @@
         </div>
       </div>
     </div>
-    <div class="divider"></div>
+    <p class="divider"></p>
     <div class="work__projects row">
+      <div class="work__example col m6 s12 center">
+        <h2 class="work__title">Black Jack</h2>
+        <div class="call-to-action">
+          <div class="work__image">
+            <img src="images/Gifs/blackjack.gif" alt="A Gif of a sorting game made by Imzan Khan" title="Click to see more about this project!" />
+          </div>
+          <div class="center links">
+            <a href="http://blackjack.imzankhan.ca/" target="_blank" class="btn deep-orange accent-4">View Project</a>
+            <a href="https://github.com/ikhan5/BlackJack" target="_blank" class="btn orange darken-4">View Code</a>
+          </div>
+        </div>
+      </div>
       <div class="work__desc col m6 s12">
-        <div class="work__overview">
-          <p class="work_example_description">
-            <p class="work_example_description card-text">
-              The Blackjack game is a project I used to help supplement my learning during the first semester, it is coded using only vanilla <b>JavaScript.</b>
-              This includes the dealer AI, basic game play, and the adaptive scoring (arguably the hardest part).
-            </p>
-            <p>The game revolves around <b>Object Oriented JavaScript</b>, this includes the Cards, the Deck, and the Players (you and the dealer).
-              The cards are objects that contain values such as: card image, card value, alternate values (where required), and name (i.e. Ace of Spades). The use of Card Objects allows for flexible and organized coding. </p>
+        <div class="work_example_description">
+          <p>
+            The Blackjack game is a project I used to help supplement my learning during the first semester, it is coded using only vanilla <b>JavaScript.</b>
+            This includes the dealer AI, basic game play, and the adaptive scoring (arguably the hardest part).
           </p>
+          <p>The game revolves around <b>Object Oriented JavaScript</b>, this includes the Cards, the Deck, and the Players (you and the dealer).
+            The cards are objects that contain values such as: card image, card value, alternate values (where required), and name (i.e. Ace of Spades). The use of Card Objects allows for flexible and organized coding. </p>
+
           <p>
             The issue with the hand totals was due to the fact that in BlackJack cards can have
             more than one value depending on the total score in the player's hand; thus, multiple hand totals were calculated in the Player object and compared to see which was larger,
@@ -188,20 +248,8 @@
           </ul>
         </div>
       </div>
-      <div class="work__example col m6 s12 center">
-        <h2 class="work__title">Black Jack</h2>
-        <div class="call-to-action">
-          <div class="work__image">
-            <img src="images/Gifs/blackjack.gif" alt="A Gif of a sorting game made by Imzan Khan" title="Click to see more about this project!" />
-          </div>
-          <div class="center links">
-            <a href="http://blackjack.imzankhan.ca/" target="_blank" class="btn deep-orange accent-4">View Project</a>
-            <a href="https://github.com/ikhan5/BlackJack" target="_blank" class="btn orange darken-4">View Code</a>
-          </div>
-        </div>
-      </div>
     </div>
-    <div class="divider"></div>
+    <p class="divider"></p>
     <div class="work__projects row">
       <div class="work__example col m6 s12 center">
         <h2 class="work__title">Create A Playlist</h2>
@@ -216,8 +264,8 @@
         </div>
       </div>
       <div class="work__desc col m6 s12">
-        <div class="work__overview">
-          <p class="work_example_description">
+        <div class="work_example_description">
+          <p>
             As apart of a team we developed a Party Planning website
             known as <a href="http://get-together.gq/">'Get Together'</a> (full site, click View Project for Playlist feature). The Playlist feature allows users to
             add hand selected songs to a playlist and play them in the YouTube
@@ -248,8 +296,7 @@
         </div>
       </div>
     </div>
-    </div>
-    <div class="divider"></div>
+    <p class="divider"></p>
   </section>
   <section id="contact" class="container">
     <h2 class="center section_header">Contact</h2>
