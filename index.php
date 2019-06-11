@@ -162,7 +162,7 @@
           <ul>
             <li>Laravel</li>
             <li>SASS</li>
-            <li>Eloqeunt ORM</li>
+            <li>Eloquent ORM</li>
             <li>JavaScript & jQuery</li>
             <li>AJAX</li>
             <li>Bootstrap</li>
