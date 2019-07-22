@@ -95,7 +95,9 @@
           <li>JavaScript & jQuery</li>
           <li>jQuery UI</li>
           <li>Bootstrap</li>
+          <li>Hugo</li>
           <li>Materialize</li>
+          <li>npm</li>
         </ul>
       </div>
       <div class="about__skill col s12 m4 center">
@@ -105,8 +107,9 @@
           <li>PHP</li>
           <li>MySQL</li>
           <li>Laravel</li>
-          <li>C and C#</li>
           <li>Oracle</li>
+          <li>MongoDB</li>
+          <li>C and C#</li>
         </ul>
       </div>
       <div class="about__skill col s12 m4 center">
