@@ -117,6 +117,7 @@
         <i class="skill-img far fa-window-maximize large material-icons"></i>
         <ul class="about__skill_description">
           <li>Git & GitHub</li>
+          <li>Netlify</li>
           <li>cPanel</li>
           <li>Postman</li>
           <li>Adobe XD</li>
@@ -129,6 +130,50 @@
   </section>
   <section id="work" class="container-fluid">
     <h2 class="center section_header">Projects</h2>
+    <div class="work__projects row">
+      <div class="work__example col m6 s12 center">
+        <h2 class="work__title">Mindtrades Website</h2>
+        <div class="call-to-action">
+          <div class="work__image">
+            <img src="images/Gifs/mindtrades.gif" alt="A Gif of a the home page of the Mindtrades Home page" title="Click to see more about this project!" />
+          </div>
+          <div class="center links">
+            <a href="https://amazing-meitner-3accdb.netlify.com/" target="_blank" class="btn deep-orange accent-4">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="work__desc col m6 s12">
+        <div class="work_example_description">
+          <p>
+            My team was tasked with the redesign of the clients website (Mindtrades), where I specialized in 
+            the <b>team lead/front-end developer</b> role. I would be mainly responsible in converting the photoshop 
+            mock-ups, created by the web designer, into <b>HTML</b>, <b>CSS</b> and <b>JavaScript</b> for online. The main
+             software tools used in the development of the site involved: <b>Hugo</b>, <b>Bitbucket</b>, and <b>Netlify</b>.
+          </p>
+          <p>
+          My job duties involved creating a Hugo theme from scratch to allow my client to update 
+          the content in the future without them having to go into the <b>HTML</b>. I would be heavily 
+          involved in the overall development of the website, as I would also work on using the 
+          <b>Netlify</b> features and functionalities to directly deploy the <b>Bitbucket</b> repository used to 
+          store the website files online. 
+          </p>
+          <p>Other duties included having to research into different industries to create small 
+            descriptions for the website, creating a company Facebook page, and modifying images in <b>Photoshop</b> for use online. As well as optimizing the website to have a 
+            page speed load time of less than 1 second on desktop, and 3 seconds on Mobile.
+          </p>
+        </div>
+        <div class="work__example_languages">
+          <h3 class="languages">Used in the project:</h3>
+          <ul>
+            <li>JavaScript & jQuery</li>
+            <li>Hugo</li>
+            <li>Netlify (Large Media)</li>
+            <li>HTML5 & CSS3</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="divider"></p>
     <div class="work__projects row">
       <div class="work__example col m6 s12 center">
         <h2 class="work__title">Job Application Manager</h2>
