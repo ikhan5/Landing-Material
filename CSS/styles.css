@@ -78,6 +78,10 @@ img {
   margin-left: 20px;
 }
 
+.social-link{
+  line-height: 2;
+}
+
 /*********************Banner**************************/
 canvas {
   width: 100vw !important;
@@ -270,12 +274,12 @@ canvas {
 
 /********************Contact************************/
 #contact {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
+  padding-top: 30px;
 }
 
-#contact__form {
-  width: 75%;
-  margin: 0 auto;
+.resume-details{
+  overflow-x: auto;
 }
 
 #contact__submit {
